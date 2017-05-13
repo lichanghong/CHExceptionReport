@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CDDC3E7862F542C927720D02F7A076B /* ZKDataArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E059C6091DA8481ABC6423A4C43DB60 /* ZKDataArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D6E9C0ACCB604098D1A9CA93F59CED2 /* ZKLFHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F9CC5376A92055B4A2537C26794AC2 /* ZKLFHeader.m */; };
+		0DF1E1E1949840A5C1A38210FDEF9767 /* ZKCDTrailer.h in Headers */ = {isa = PBXBuildFile; fileRef = 080D3B722B13216CED38C9B465CE5114 /* ZKCDTrailer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1219D5F5306B64DC616B5A45E04E945F /* ZKFileArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DF01822B03DCE6B64F713CE57EB1DED /* ZKFileArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		140BFEFFAE8AF0AFFB64D9F2B03A8F34 /* ZKDefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B8E0FE92459B985F2980409E87EB2 /* ZKDefs.m */; };
+		1F08140F483C9495BF58BBFABE1E6E0E /* NSFileManager+ZKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 173E5966E74ABE841C2B6662BF3863C0 /* NSFileManager+ZKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40593F93E559175F5EC2DF881AB3AAD9 /* Pods-CHExceptionReport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CA00E635A01E943BE827EC58055756C /* Pods-CHExceptionReport-dummy.m */; };
+		42C88FF1AE2CCBA01F25BF1E860160A6 /* ZKArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 6547EE5027E47DC7927C5D459FEC1CB8 /* ZKArchive.m */; };
+		43F0D9E978BB53F372CB753C5C13BDDB /* GMAppleDouble.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B7F754ADFB49767259268E60B4B01 /* GMAppleDouble.m */; };
+		4A6076D1EA2A5B6E0EF55114B4FCE30A /* NSFileHandle+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7AE7BE951AB65EEFF3FE6E67C562E5 /* NSFileHandle+ZKAdditions.m */; };
+		4B09D5A9199DC624C128DF84E9BE7ECC /* ZKFileArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = F888AFB08FD94CC2CC572D996EF56EF3 /* ZKFileArchive.m */; };
+		5311FA5FC30C63C2D261E232D3D4DD7A /* ZKCDTrailer64.m in Sources */ = {isa = PBXBuildFile; fileRef = EEED7D224C6A6B3B52C47D7A9DD24F06 /* ZKCDTrailer64.m */; };
+		54F63D443CC24FD72878535908CAAB02 /* GMAppleDouble.h in Headers */ = {isa = PBXBuildFile; fileRef = 168F31CE038B3248B6BDE19C72E6AC0D /* GMAppleDouble.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55EC92AE1DDE53E608D38F114780FE63 /* ZKCDHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D03A3AC369D2ABD8E949A95FF732AD7 /* ZKCDHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		568EAC783D182B64A8E6D70ECC6485CF /* ZKDataArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 755CD60FFC59F2D6689E60D06FF8527F /* ZKDataArchive.m */; };
+		57027380AB9FB6818FFF1E2C168633F3 /* NSDictionary+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2744D0E97887C86EAAE14D34DFC2C594 /* NSDictionary+ZKAdditions.m */; };
+		5CA7FCDDAA4286B4BD516890969B5562 /* GMAppleDouble+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 212D9549990325F63B7B2F006D757932 /* GMAppleDouble+ZKAdditions.m */; };
+		61F6CA8622E0997CC49EC3E71478220D /* ZKLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 012BBC377FF23B7D196DBFF235A9F9E8 /* ZKLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		655E1A0C37FA55DD1D949665123217D2 /* NSData+ZKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DAE1B6BA12D103FC28A525A1DC94CD74 /* NSData+ZKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A2D0F1B09514584A6DF5A209726AB2F /* ZKCDTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = A2EB3B03D3BF2C035DCC68900EAFC292 /* ZKCDTrailer.m */; };
+		6A50EBE82712A515ED5173C65E84015B /* ZKArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B67E0B82C454A9C6D316C7E99BBB844A /* ZKArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74FDB5E95D68A4B5509B502160D0C3CF /* NSString+ZKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 883CEF61EC8304A2E35A0F7B7C557555 /* NSString+ZKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DDFD5CD012D16C13B6D3FCD4432C79 /* ZipKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F77B19A980774DC9A59EEF03BE974108 /* ZipKit-dummy.m */; };
+		7FDF93B8D37A51F5034CD3F25CC0C1A8 /* NSFileManager+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D21ED4C87E04C74BD195B80BCD65340 /* NSFileManager+ZKAdditions.m */; };
+		8762AE8E200302F05A17C49BC020FD49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		895277B448EE2AB67DF528D18E5C2A7C /* ZKCDTrailer64Locator.m in Sources */ = {isa = PBXBuildFile; fileRef = 977D571E10A43E111ADE466AEB1ECC99 /* ZKCDTrailer64Locator.m */; };
+		8BF3E9A86CF8F985690CBC5022314F88 /* ZipKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E18C270312AB9477E5701340B4AFC5FC /* ZipKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E81C404AA0EF85623A352069D33CB14 /* ZKDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = E0FB62F35A1DE15C277DB9EA08C00B0B /* ZKDefs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		915FE499914AC2988EB701B99B8443BC /* NSData+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDE0D5B6C223F6B5F763EC2BCA1D35E /* NSData+ZKAdditions.m */; };
+		97D9992C3B9F1587B2C44A835FBD0256 /* NSFileHandle+ZKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AC3F4903CF022938B025443B949892D7 /* NSFileHandle+ZKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9909FE852A6363DC1AC77F686741730C /* GMAppleDouble+ZKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9176CCC50A29D31B905039991BF46D38 /* GMAppleDouble+ZKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FBC4B6BB1A61185EC7C101D517CB12 /* NSDate+ZKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D825A09E3BAA3CEED4EF9409E229F0D /* NSDate+ZKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC45E57FADD24453231C1E43CF808C38 /* NSString+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B6514B95622AB5F547CF755BEAC29F2A /* NSString+ZKAdditions.m */; };
+		B0EF2D58321C6FAD0B0481C354648011 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BE1F51C42BF01E07E256B5E30CF2A278 /* NSDictionary+ZKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DB86D1EBC5AF2AB8120023E49CDCFA65 /* NSDictionary+ZKAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C47C47E5273A9F0AF4FDB43B93200142 /* NSDate+ZKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE655018E097183B8C98EB10CE243655 /* NSDate+ZKAdditions.m */; };
+		C6FF7EFEFDF04E16683B24761D08C07B /* ZKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A61C9B62561AFC1B432AE30D1C9640 /* ZKLog.m */; };
+		CAB0B4B56393F7EDC1D3CCC133F864D6 /* ZKLFHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6174D99F0776B6F1F12E221FC0266104 /* ZKLFHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1A940785D8A39FD80142A4096AD6469 /* ZKCDTrailer64.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C9002FDA32A4AD5465220DDEFDA5029 /* ZKCDTrailer64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F48D15ADF113E591ED612338264113E1 /* ZKCDHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = FE9F0666E2B32ABA734BBE68A090407E /* ZKCDHeader.m */; };
+		F9BD5D0EE4A736B3276B92DFE05AEE86 /* ZKCDTrailer64Locator.h in Headers */ = {isa = PBXBuildFile; fileRef = 329117B6AFCC3DD6A3F3B10D14BAB239 /* ZKCDTrailer64Locator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F363930BE4F7F2402DEEFCADA943616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFF236E1B9175AA822D9F36BBD8BD6DD;
+			remoteInfo = ZipKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012BBC377FF23B7D196DBFF235A9F9E8 /* ZKLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKLog.h; path = ZipKit/ZKLog.h; sourceTree = "<group>"; };
+		080D3B722B13216CED38C9B465CE5114 /* ZKCDTrailer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKCDTrailer.h; path = ZipKit/ZKCDTrailer.h; sourceTree = "<group>"; };
+		0DF01822B03DCE6B64F713CE57EB1DED /* ZKFileArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKFileArchive.h; path = ZipKit/ZKFileArchive.h; sourceTree = "<group>"; };
+		0ED24A41D8918E2720B6CB62129D067E /* ZipKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZipKit-prefix.pch"; sourceTree = "<group>"; };
+		0F0B8E0FE92459B985F2980409E87EB2 /* ZKDefs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDefs.m; path = ZipKit/ZKDefs.m; sourceTree = "<group>"; };
+		10E5C9CF79D349D78147C44D547FAB7C /* Pods-CHExceptionReport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHExceptionReport.debug.xcconfig"; sourceTree = "<group>"; };
+		13F9CC5376A92055B4A2537C26794AC2 /* ZKLFHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKLFHeader.m; path = ZipKit/ZKLFHeader.m; sourceTree = "<group>"; };
+		168F31CE038B3248B6BDE19C72E6AC0D /* GMAppleDouble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GMAppleDouble.h; path = ZipKit/MacFUSE/GMAppleDouble.h; sourceTree = "<group>"; };
+		173E5966E74ABE841C2B6662BF3863C0 /* NSFileManager+ZKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+ZKAdditions.h"; path = "ZipKit/NSFileManager+ZKAdditions.h"; sourceTree = "<group>"; };
+		212D9549990325F63B7B2F006D757932 /* GMAppleDouble+ZKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GMAppleDouble+ZKAdditions.m"; path = "ZipKit/GMAppleDouble+ZKAdditions.m"; sourceTree = "<group>"; };
+		216B7F754ADFB49767259268E60B4B01 /* GMAppleDouble.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GMAppleDouble.m; path = ZipKit/MacFUSE/GMAppleDouble.m; sourceTree = "<group>"; };
+		2744D0E97887C86EAAE14D34DFC2C594 /* NSDictionary+ZKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+ZKAdditions.m"; path = "ZipKit/NSDictionary+ZKAdditions.m"; sourceTree = "<group>"; };
+		329117B6AFCC3DD6A3F3B10D14BAB239 /* ZKCDTrailer64Locator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKCDTrailer64Locator.h; path = ZipKit/ZKCDTrailer64Locator.h; sourceTree = "<group>"; };
+		344DA56B33B68D234AB4966FF5092805 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
+		3B8C46669DAC7BAC46F5A674EAC07672 /* libPods-CHExceptionReport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CHExceptionReport.a"; path = "libPods-CHExceptionReport.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9002FDA32A4AD5465220DDEFDA5029 /* ZKCDTrailer64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKCDTrailer64.h; path = ZipKit/ZKCDTrailer64.h; sourceTree = "<group>"; };
+		448C7D47061FD288E85F11644AB347BE /* Pods-CHExceptionReport-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHExceptionReport-resources.sh"; sourceTree = "<group>"; };
+		5D21ED4C87E04C74BD195B80BCD65340 /* NSFileManager+ZKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+ZKAdditions.m"; path = "ZipKit/NSFileManager+ZKAdditions.m"; sourceTree = "<group>"; };
+		6174D99F0776B6F1F12E221FC0266104 /* ZKLFHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKLFHeader.h; path = ZipKit/ZKLFHeader.h; sourceTree = "<group>"; };
+		6547EE5027E47DC7927C5D459FEC1CB8 /* ZKArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKArchive.m; path = ZipKit/ZKArchive.m; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6CA00E635A01E943BE827EC58055756C /* Pods-CHExceptionReport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHExceptionReport-dummy.m"; sourceTree = "<group>"; };
+		6D825A09E3BAA3CEED4EF9409E229F0D /* NSDate+ZKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+ZKAdditions.h"; path = "ZipKit/NSDate+ZKAdditions.h"; sourceTree = "<group>"; };
+		6EDE0D5B6C223F6B5F763EC2BCA1D35E /* NSData+ZKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ZKAdditions.m"; path = "ZipKit/NSData+ZKAdditions.m"; sourceTree = "<group>"; };
+		755CD60FFC59F2D6689E60D06FF8527F /* ZKDataArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKDataArchive.m; path = ZipKit/ZKDataArchive.m; sourceTree = "<group>"; };
+		76F5C4BBA4B02841B5B467F03C8A0841 /* Pods-CHExceptionReport-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHExceptionReport-acknowledgements.plist"; sourceTree = "<group>"; };
+		883CEF61EC8304A2E35A0F7B7C557555 /* NSString+ZKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ZKAdditions.h"; path = "ZipKit/NSString+ZKAdditions.h"; sourceTree = "<group>"; };
+		89B3CCE68C0ABE800AC9DADD1DDA8266 /* Pods-CHExceptionReport-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHExceptionReport-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9176CCC50A29D31B905039991BF46D38 /* GMAppleDouble+ZKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GMAppleDouble+ZKAdditions.h"; path = "ZipKit/GMAppleDouble+ZKAdditions.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		977D571E10A43E111ADE466AEB1ECC99 /* ZKCDTrailer64Locator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKCDTrailer64Locator.m; path = ZipKit/ZKCDTrailer64Locator.m; sourceTree = "<group>"; };
+		98BCB2C026022E5431CF5AC086DCE997 /* Pods-CHExceptionReport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHExceptionReport.release.xcconfig"; sourceTree = "<group>"; };
+		9D03A3AC369D2ABD8E949A95FF732AD7 /* ZKCDHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKCDHeader.h; path = ZipKit/ZKCDHeader.h; sourceTree = "<group>"; };
+		9E059C6091DA8481ABC6423A4C43DB60 /* ZKDataArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDataArchive.h; path = ZipKit/ZKDataArchive.h; sourceTree = "<group>"; };
+		A2EB3B03D3BF2C035DCC68900EAFC292 /* ZKCDTrailer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKCDTrailer.m; path = ZipKit/ZKCDTrailer.m; sourceTree = "<group>"; };
+		A9A61C9B62561AFC1B432AE30D1C9640 /* ZKLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKLog.m; path = ZipKit/ZKLog.m; sourceTree = "<group>"; };
+		AC3F4903CF022938B025443B949892D7 /* NSFileHandle+ZKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileHandle+ZKAdditions.h"; path = "ZipKit/NSFileHandle+ZKAdditions.h"; sourceTree = "<group>"; };
+		B6514B95622AB5F547CF755BEAC29F2A /* NSString+ZKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ZKAdditions.m"; path = "ZipKit/NSString+ZKAdditions.m"; sourceTree = "<group>"; };
+		B67E0B82C454A9C6D316C7E99BBB844A /* ZKArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKArchive.h; path = ZipKit/ZKArchive.h; sourceTree = "<group>"; };
+		BC7AE7BE951AB65EEFF3FE6E67C562E5 /* NSFileHandle+ZKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileHandle+ZKAdditions.m"; path = "ZipKit/NSFileHandle+ZKAdditions.m"; sourceTree = "<group>"; };
+		CB71FC974929A9CBB91A0AE5931FAD00 /* Pods-CHExceptionReport-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHExceptionReport-frameworks.sh"; sourceTree = "<group>"; };
+		D22F4AA087B9775F1EAC6B7814BC164A /* ZipKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZipKit.xcconfig; sourceTree = "<group>"; };
+		DAE1B6BA12D103FC28A525A1DC94CD74 /* NSData+ZKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ZKAdditions.h"; path = "ZipKit/NSData+ZKAdditions.h"; sourceTree = "<group>"; };
+		DB86D1EBC5AF2AB8120023E49CDCFA65 /* NSDictionary+ZKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+ZKAdditions.h"; path = "ZipKit/NSDictionary+ZKAdditions.h"; sourceTree = "<group>"; };
+		DFDD07214D67931F7F351E842B30F058 /* libZipKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZipKit.a; path = libZipKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0FB62F35A1DE15C277DB9EA08C00B0B /* ZKDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZKDefs.h; path = ZipKit/ZKDefs.h; sourceTree = "<group>"; };
+		E18C270312AB9477E5701340B4AFC5FC /* ZipKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipKit.h; path = ZipKit/ZipKit.h; sourceTree = "<group>"; };
+		EE655018E097183B8C98EB10CE243655 /* NSDate+ZKAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+ZKAdditions.m"; path = "ZipKit/NSDate+ZKAdditions.m"; sourceTree = "<group>"; };
+		EEED7D224C6A6B3B52C47D7A9DD24F06 /* ZKCDTrailer64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKCDTrailer64.m; path = ZipKit/ZKCDTrailer64.m; sourceTree = "<group>"; };
+		F77B19A980774DC9A59EEF03BE974108 /* ZipKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZipKit-dummy.m"; sourceTree = "<group>"; };
+		F888AFB08FD94CC2CC572D996EF56EF3 /* ZKFileArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKFileArchive.m; path = ZipKit/ZKFileArchive.m; sourceTree = "<group>"; };
+		FE9F0666E2B32ABA734BBE68A090407E /* ZKCDHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZKCDHeader.m; path = ZipKit/ZKCDHeader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEAC6E92A1A1E9BDEF2C453AF3C16B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0EF2D58321C6FAD0B0481C354648011 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F47E6B22BCABB29F671EE59E9F50BD29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8762AE8E200302F05A17C49BC020FD49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BA993BB317905CAB9AE52CF65375CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D22F4AA087B9775F1EAC6B7814BC164A /* ZipKit.xcconfig */,
+				F77B19A980774DC9A59EEF03BE974108 /* ZipKit-dummy.m */,
+				0ED24A41D8918E2720B6CB62129D067E /* ZipKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZipKit";
+			sourceTree = "<group>";
+		};
+		3556BDC94352CE5178176B255B4C1399 /* Pods-CHExceptionReport */ = {
+			isa = PBXGroup;
+			children = (
+				89B3CCE68C0ABE800AC9DADD1DDA8266 /* Pods-CHExceptionReport-acknowledgements.markdown */,
+				76F5C4BBA4B02841B5B467F03C8A0841 /* Pods-CHExceptionReport-acknowledgements.plist */,
+				6CA00E635A01E943BE827EC58055756C /* Pods-CHExceptionReport-dummy.m */,
+				CB71FC974929A9CBB91A0AE5931FAD00 /* Pods-CHExceptionReport-frameworks.sh */,
+				448C7D47061FD288E85F11644AB347BE /* Pods-CHExceptionReport-resources.sh */,
+				10E5C9CF79D349D78147C44D547FAB7C /* Pods-CHExceptionReport.debug.xcconfig */,
+				98BCB2C026022E5431CF5AC086DCE997 /* Pods-CHExceptionReport.release.xcconfig */,
+			);
+			name = "Pods-CHExceptionReport";
+			path = "Target Support Files/Pods-CHExceptionReport";
+			sourceTree = "<group>";
+		};
+		6752BDD55DB040544545C10D88B6B9E7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3556BDC94352CE5178176B255B4C1399 /* Pods-CHExceptionReport */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A6850799F33ED9FF2B5F5BD3671E0F41 /* Pods */,
+				EBE4C83542C267D61CD5E16F4F72A900 /* Products */,
+				6752BDD55DB040544545C10D88B6B9E7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A6850799F33ED9FF2B5F5BD3671E0F41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5A48A55093FC212DCCDA7938F602592 /* Bugly */,
+				B517F52191A1A93DB6AFCEABEEF5493C /* ZipKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B517F52191A1A93DB6AFCEABEEF5493C /* ZipKit */ = {
+			isa = PBXGroup;
+			children = (
+				168F31CE038B3248B6BDE19C72E6AC0D /* GMAppleDouble.h */,
+				216B7F754ADFB49767259268E60B4B01 /* GMAppleDouble.m */,
+				9176CCC50A29D31B905039991BF46D38 /* GMAppleDouble+ZKAdditions.h */,
+				212D9549990325F63B7B2F006D757932 /* GMAppleDouble+ZKAdditions.m */,
+				DAE1B6BA12D103FC28A525A1DC94CD74 /* NSData+ZKAdditions.h */,
+				6EDE0D5B6C223F6B5F763EC2BCA1D35E /* NSData+ZKAdditions.m */,
+				6D825A09E3BAA3CEED4EF9409E229F0D /* NSDate+ZKAdditions.h */,
+				EE655018E097183B8C98EB10CE243655 /* NSDate+ZKAdditions.m */,
+				DB86D1EBC5AF2AB8120023E49CDCFA65 /* NSDictionary+ZKAdditions.h */,
+				2744D0E97887C86EAAE14D34DFC2C594 /* NSDictionary+ZKAdditions.m */,
+				AC3F4903CF022938B025443B949892D7 /* NSFileHandle+ZKAdditions.h */,
+				BC7AE7BE951AB65EEFF3FE6E67C562E5 /* NSFileHandle+ZKAdditions.m */,
+				173E5966E74ABE841C2B6662BF3863C0 /* NSFileManager+ZKAdditions.h */,
+				5D21ED4C87E04C74BD195B80BCD65340 /* NSFileManager+ZKAdditions.m */,
+				883CEF61EC8304A2E35A0F7B7C557555 /* NSString+ZKAdditions.h */,
+				B6514B95622AB5F547CF755BEAC29F2A /* NSString+ZKAdditions.m */,
+				E18C270312AB9477E5701340B4AFC5FC /* ZipKit.h */,
+				B67E0B82C454A9C6D316C7E99BBB844A /* ZKArchive.h */,
+				6547EE5027E47DC7927C5D459FEC1CB8 /* ZKArchive.m */,
+				9D03A3AC369D2ABD8E949A95FF732AD7 /* ZKCDHeader.h */,
+				FE9F0666E2B32ABA734BBE68A090407E /* ZKCDHeader.m */,
+				080D3B722B13216CED38C9B465CE5114 /* ZKCDTrailer.h */,
+				A2EB3B03D3BF2C035DCC68900EAFC292 /* ZKCDTrailer.m */,
+				3C9002FDA32A4AD5465220DDEFDA5029 /* ZKCDTrailer64.h */,
+				EEED7D224C6A6B3B52C47D7A9DD24F06 /* ZKCDTrailer64.m */,
+				329117B6AFCC3DD6A3F3B10D14BAB239 /* ZKCDTrailer64Locator.h */,
+				977D571E10A43E111ADE466AEB1ECC99 /* ZKCDTrailer64Locator.m */,
+				9E059C6091DA8481ABC6423A4C43DB60 /* ZKDataArchive.h */,
+				755CD60FFC59F2D6689E60D06FF8527F /* ZKDataArchive.m */,
+				E0FB62F35A1DE15C277DB9EA08C00B0B /* ZKDefs.h */,
+				0F0B8E0FE92459B985F2980409E87EB2 /* ZKDefs.m */,
+				0DF01822B03DCE6B64F713CE57EB1DED /* ZKFileArchive.h */,
+				F888AFB08FD94CC2CC572D996EF56EF3 /* ZKFileArchive.m */,
+				6174D99F0776B6F1F12E221FC0266104 /* ZKLFHeader.h */,
+				13F9CC5376A92055B4A2537C26794AC2 /* ZKLFHeader.m */,
+				012BBC377FF23B7D196DBFF235A9F9E8 /* ZKLog.h */,
+				A9A61C9B62561AFC1B432AE30D1C9640 /* ZKLog.m */,
+				18BA993BB317905CAB9AE52CF65375CD /* Support Files */,
+			);
+			name = ZipKit;
+			path = ZipKit;
+			sourceTree = "<group>";
+		};
+		B5553DE7EA3DCAD8192A8325CBCEFBB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				344DA56B33B68D234AB4966FF5092805 /* Bugly.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5A48A55093FC212DCCDA7938F602592 /* Bugly */ = {
+			isa = PBXGroup;
+			children = (
+				B5553DE7EA3DCAD8192A8325CBCEFBB1 /* Frameworks */,
+			);
+			name = Bugly;
+			path = Bugly;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EBE4C83542C267D61CD5E16F4F72A900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B8C46669DAC7BAC46F5A674EAC07672 /* libPods-CHExceptionReport.a */,
+				DFDD07214D67931F7F351E842B30F058 /* libZipKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A02C249FE1119B6681E9FBF8115F023E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9909FE852A6363DC1AC77F686741730C /* GMAppleDouble+ZKAdditions.h in Headers */,
+				54F63D443CC24FD72878535908CAAB02 /* GMAppleDouble.h in Headers */,
+				655E1A0C37FA55DD1D949665123217D2 /* NSData+ZKAdditions.h in Headers */,
+				A0FBC4B6BB1A61185EC7C101D517CB12 /* NSDate+ZKAdditions.h in Headers */,
+				BE1F51C42BF01E07E256B5E30CF2A278 /* NSDictionary+ZKAdditions.h in Headers */,
+				97D9992C3B9F1587B2C44A835FBD0256 /* NSFileHandle+ZKAdditions.h in Headers */,
+				1F08140F483C9495BF58BBFABE1E6E0E /* NSFileManager+ZKAdditions.h in Headers */,
+				74FDB5E95D68A4B5509B502160D0C3CF /* NSString+ZKAdditions.h in Headers */,
+				8BF3E9A86CF8F985690CBC5022314F88 /* ZipKit.h in Headers */,
+				6A50EBE82712A515ED5173C65E84015B /* ZKArchive.h in Headers */,
+				55EC92AE1DDE53E608D38F114780FE63 /* ZKCDHeader.h in Headers */,
+				0DF1E1E1949840A5C1A38210FDEF9767 /* ZKCDTrailer.h in Headers */,
+				F1A940785D8A39FD80142A4096AD6469 /* ZKCDTrailer64.h in Headers */,
+				F9BD5D0EE4A736B3276B92DFE05AEE86 /* ZKCDTrailer64Locator.h in Headers */,
+				0CDDC3E7862F542C927720D02F7A076B /* ZKDataArchive.h in Headers */,
+				8E81C404AA0EF85623A352069D33CB14 /* ZKDefs.h in Headers */,
+				1219D5F5306B64DC616B5A45E04E945F /* ZKFileArchive.h in Headers */,
+				CAB0B4B56393F7EDC1D3CCC133F864D6 /* ZKLFHeader.h in Headers */,
+				61F6CA8622E0997CC49EC3E71478220D /* ZKLog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6D4C35A63D053492E2FE9DC411A1C433 /* Pods-CHExceptionReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1A06F295E572E8E0F650C388387444 /* Build configuration list for PBXNativeTarget "Pods-CHExceptionReport" */;
+			buildPhases = (
+				1EDCBA84EEA36C43302FB4C9EBFCA62D /* Sources */,
+				F47E6B22BCABB29F671EE59E9F50BD29 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B85DF22B94CB86BBAE4D3A22914D56C /* PBXTargetDependency */,
+			);
+			name = "Pods-CHExceptionReport";
+			productName = "Pods-CHExceptionReport";
+			productReference = 3B8C46669DAC7BAC46F5A674EAC07672 /* libPods-CHExceptionReport.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BFF236E1B9175AA822D9F36BBD8BD6DD /* ZipKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DF66B978C6EF500E99AD106EC72352 /* Build configuration list for PBXNativeTarget "ZipKit" */;
+			buildPhases = (
+				4AE30BBB61EFC260BDB0D79E8B51BA0E /* Sources */,
+				AEAC6E92A1A1E9BDEF2C453AF3C16B99 /* Frameworks */,
+				A02C249FE1119B6681E9FBF8115F023E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZipKit;
+			productName = ZipKit;
+			productReference = DFDD07214D67931F7F351E842B30F058 /* libZipKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EBE4C83542C267D61CD5E16F4F72A900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D4C35A63D053492E2FE9DC411A1C433 /* Pods-CHExceptionReport */,
+				BFF236E1B9175AA822D9F36BBD8BD6DD /* ZipKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EDCBA84EEA36C43302FB4C9EBFCA62D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40593F93E559175F5EC2DF881AB3AAD9 /* Pods-CHExceptionReport-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AE30BBB61EFC260BDB0D79E8B51BA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA7FCDDAA4286B4BD516890969B5562 /* GMAppleDouble+ZKAdditions.m in Sources */,
+				43F0D9E978BB53F372CB753C5C13BDDB /* GMAppleDouble.m in Sources */,
+				915FE499914AC2988EB701B99B8443BC /* NSData+ZKAdditions.m in Sources */,
+				C47C47E5273A9F0AF4FDB43B93200142 /* NSDate+ZKAdditions.m in Sources */,
+				57027380AB9FB6818FFF1E2C168633F3 /* NSDictionary+ZKAdditions.m in Sources */,
+				4A6076D1EA2A5B6E0EF55114B4FCE30A /* NSFileHandle+ZKAdditions.m in Sources */,
+				7FDF93B8D37A51F5034CD3F25CC0C1A8 /* NSFileManager+ZKAdditions.m in Sources */,
+				AC45E57FADD24453231C1E43CF808C38 /* NSString+ZKAdditions.m in Sources */,
+				78DDFD5CD012D16C13B6D3FCD4432C79 /* ZipKit-dummy.m in Sources */,
+				42C88FF1AE2CCBA01F25BF1E860160A6 /* ZKArchive.m in Sources */,
+				F48D15ADF113E591ED612338264113E1 /* ZKCDHeader.m in Sources */,
+				6A2D0F1B09514584A6DF5A209726AB2F /* ZKCDTrailer.m in Sources */,
+				5311FA5FC30C63C2D261E232D3D4DD7A /* ZKCDTrailer64.m in Sources */,
+				895277B448EE2AB67DF528D18E5C2A7C /* ZKCDTrailer64Locator.m in Sources */,
+				568EAC783D182B64A8E6D70ECC6485CF /* ZKDataArchive.m in Sources */,
+				140BFEFFAE8AF0AFFB64D9F2B03A8F34 /* ZKDefs.m in Sources */,
+				4B09D5A9199DC624C128DF84E9BE7ECC /* ZKFileArchive.m in Sources */,
+				0D6E9C0ACCB604098D1A9CA93F59CED2 /* ZKLFHeader.m in Sources */,
+				C6FF7EFEFDF04E16683B24761D08C07B /* ZKLog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B85DF22B94CB86BBAE4D3A22914D56C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZipKit;
+			target = BFF236E1B9175AA822D9F36BBD8BD6DD /* ZipKit */;
+			targetProxy = 6F363930BE4F7F2402DEEFCADA943616 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A121922924C55DDEEE047A1E4AF6141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98BCB2C026022E5431CF5AC086DCE997 /* Pods-CHExceptionReport.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		38B67C0E929F90107666A3D63E12CAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D22F4AA087B9775F1EAC6B7814BC164A /* ZipKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZipKit/ZipKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		907E36BCD8ED364205A36D31CACC872E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DCDCD27FC76D78D4BE59ABCE4F95F78E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFF46D5666C2CCEB36170476B5F4B4A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D22F4AA087B9775F1EAC6B7814BC164A /* ZipKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZipKit/ZipKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FE0EF0376758674C3A73194EE050D06A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10E5C9CF79D349D78147C44D547FAB7C /* Pods-CHExceptionReport.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DF66B978C6EF500E99AD106EC72352 /* Build configuration list for PBXNativeTarget "ZipKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF46D5666C2CCEB36170476B5F4B4A9 /* Debug */,
+				38B67C0E929F90107666A3D63E12CAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907E36BCD8ED364205A36D31CACC872E /* Debug */,
+				DCDCD27FC76D78D4BE59ABCE4F95F78E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F1A06F295E572E8E0F650C388387444 /* Build configuration list for PBXNativeTarget "Pods-CHExceptionReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0EF0376758674C3A73194EE050D06A /* Debug */,
+				0A121922924C55DDEEE047A1E4AF6141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

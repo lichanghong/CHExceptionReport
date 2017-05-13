@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		558651C54D517ED993C91F6D /* libPods-CHExceptionReport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D93EA190B5A666B13E1F7DC /* libPods-CHExceptionReport.a */; };
+		954E8FDE1EC5B15F00205335 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 954E8FDD1EC5B15F00205335 /* main.m */; };
+		954E8FE11EC5B15F00205335 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 954E8FE01EC5B15F00205335 /* AppDelegate.m */; };
+		954E8FE41EC5B15F00205335 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 954E8FE31EC5B15F00205335 /* ViewController.m */; };
+		954E8FE71EC5B15F00205335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954E8FE51EC5B15F00205335 /* Main.storyboard */; };
+		954E8FE91EC5B15F00205335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 954E8FE81EC5B15F00205335 /* Assets.xcassets */; };
+		954E8FEC1EC5B15F00205335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 954E8FEA1EC5B15F00205335 /* LaunchScreen.storyboard */; };
+		954E8FF61EC5B23000205335 /* CHUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 954E8FF51EC5B23000205335 /* CHUncaughtExceptionHandler.m */; };
+		954E8FFF1EC6B8A400205335 /* CHBugly.m in Sources */ = {isa = PBXBuildFile; fileRef = 954E8FFE1EC6B8A400205335 /* CHBugly.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29130EC95E6922DF61B08161 /* Pods-CHExceptionReport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHExceptionReport.release.xcconfig"; path = "Pods/Target Support Files/Pods-CHExceptionReport/Pods-CHExceptionReport.release.xcconfig"; sourceTree = "<group>"; };
+		7D93EA190B5A666B13E1F7DC /* libPods-CHExceptionReport.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CHExceptionReport.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		954E8FD91EC5B15F00205335 /* CHExceptionReport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHExceptionReport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		954E8FDD1EC5B15F00205335 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		954E8FDF1EC5B15F00205335 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		954E8FE01EC5B15F00205335 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		954E8FE21EC5B15F00205335 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		954E8FE31EC5B15F00205335 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		954E8FE61EC5B15F00205335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		954E8FE81EC5B15F00205335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		954E8FEB1EC5B15F00205335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		954E8FED1EC5B15F00205335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		954E8FF41EC5B23000205335 /* CHUncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHUncaughtExceptionHandler.h; path = uncaught_exception/CHUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		954E8FF51EC5B23000205335 /* CHUncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHUncaughtExceptionHandler.m; path = uncaught_exception/CHUncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		954E8FFD1EC6B8A400205335 /* CHBugly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHBugly.h; path = uncaught_exception/CHBugly.h; sourceTree = "<group>"; };
+		954E8FFE1EC6B8A400205335 /* CHBugly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHBugly.m; path = uncaught_exception/CHBugly.m; sourceTree = "<group>"; };
+		B5DF0EA6E0DF1B28F8BBF1B3 /* Pods-CHExceptionReport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHExceptionReport.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CHExceptionReport/Pods-CHExceptionReport.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		954E8FD61EC5B15F00205335 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558651C54D517ED993C91F6D /* libPods-CHExceptionReport.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		271E1C7D009D245C6E4C9C68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF0EA6E0DF1B28F8BBF1B3 /* Pods-CHExceptionReport.debug.xcconfig */,
+				29130EC95E6922DF61B08161 /* Pods-CHExceptionReport.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7C356E89F28C7AA25E73ED77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D93EA190B5A666B13E1F7DC /* libPods-CHExceptionReport.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		954E8FD01EC5B15F00205335 = {
+			isa = PBXGroup;
+			children = (
+				954E8FDB1EC5B15F00205335 /* CHExceptionReport */,
+				954E8FDA1EC5B15F00205335 /* Products */,
+				271E1C7D009D245C6E4C9C68 /* Pods */,
+				7C356E89F28C7AA25E73ED77 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		954E8FDA1EC5B15F00205335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				954E8FD91EC5B15F00205335 /* CHExceptionReport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		954E8FDB1EC5B15F00205335 /* CHExceptionReport */ = {
+			isa = PBXGroup;
+			children = (
+				954E8FFC1EC6B88F00205335 /* bugly */,
+				954E8FF31EC5B1D900205335 /* iOS原生异常捕获 */,
+				954E8FDF1EC5B15F00205335 /* AppDelegate.h */,
+				954E8FE01EC5B15F00205335 /* AppDelegate.m */,
+				954E8FE21EC5B15F00205335 /* ViewController.h */,
+				954E8FE31EC5B15F00205335 /* ViewController.m */,
+				954E8FE51EC5B15F00205335 /* Main.storyboard */,
+				954E8FE81EC5B15F00205335 /* Assets.xcassets */,
+				954E8FEA1EC5B15F00205335 /* LaunchScreen.storyboard */,
+				954E8FED1EC5B15F00205335 /* Info.plist */,
+				954E8FDC1EC5B15F00205335 /* Supporting Files */,
+			);
+			path = CHExceptionReport;
+			sourceTree = "<group>";
+		};
+		954E8FDC1EC5B15F00205335 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				954E8FDD1EC5B15F00205335 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		954E8FF31EC5B1D900205335 /* iOS原生异常捕获 */ = {
+			isa = PBXGroup;
+			children = (
+				954E8FF41EC5B23000205335 /* CHUncaughtExceptionHandler.h */,
+				954E8FF51EC5B23000205335 /* CHUncaughtExceptionHandler.m */,
+			);
+			name = "iOS原生异常捕获";
+			sourceTree = "<group>";
+		};
+		954E8FFC1EC6B88F00205335 /* bugly */ = {
+			isa = PBXGroup;
+			children = (
+				954E8FFD1EC6B8A400205335 /* CHBugly.h */,
+				954E8FFE1EC6B8A400205335 /* CHBugly.m */,
+			);
+			name = bugly;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		954E8FD81EC5B15F00205335 /* CHExceptionReport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 954E8FF01EC5B15F00205335 /* Build configuration list for PBXNativeTarget "CHExceptionReport" */;
+			buildPhases = (
+				992226839F04F1806C225525 /* [CP] Check Pods Manifest.lock */,
+				954E8FD51EC5B15F00205335 /* Sources */,
+				954E8FD61EC5B15F00205335 /* Frameworks */,
+				954E8FD71EC5B15F00205335 /* Resources */,
+				46FC7DA8101F29F668BC4B5E /* [CP] Embed Pods Frameworks */,
+				A86B4430087BA8F427D3FB44 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHExceptionReport;
+			productName = CHExceptionReport;
+			productReference = 954E8FD91EC5B15F00205335 /* CHExceptionReport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		954E8FD11EC5B15F00205335 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lichanghong;
+				TargetAttributes = {
+					954E8FD81EC5B15F00205335 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = ZQQMP3TJXZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 954E8FD41EC5B15F00205335 /* Build configuration list for PBXProject "CHExceptionReport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 954E8FD01EC5B15F00205335;
+			productRefGroup = 954E8FDA1EC5B15F00205335 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				954E8FD81EC5B15F00205335 /* CHExceptionReport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		954E8FD71EC5B15F00205335 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954E8FEC1EC5B15F00205335 /* LaunchScreen.storyboard in Resources */,
+				954E8FE91EC5B15F00205335 /* Assets.xcassets in Resources */,
+				954E8FE71EC5B15F00205335 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46FC7DA8101F29F668BC4B5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CHExceptionReport/Pods-CHExceptionReport-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		992226839F04F1806C225525 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A86B4430087BA8F427D3FB44 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CHExceptionReport/Pods-CHExceptionReport-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		954E8FD51EC5B15F00205335 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954E8FE41EC5B15F00205335 /* ViewController.m in Sources */,
+				954E8FE11EC5B15F00205335 /* AppDelegate.m in Sources */,
+				954E8FFF1EC6B8A400205335 /* CHBugly.m in Sources */,
+				954E8FF61EC5B23000205335 /* CHUncaughtExceptionHandler.m in Sources */,
+				954E8FDE1EC5B15F00205335 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		954E8FE51EC5B15F00205335 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				954E8FE61EC5B15F00205335 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		954E8FEA1EC5B15F00205335 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				954E8FEB1EC5B15F00205335 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		954E8FEE1EC5B15F00205335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		954E8FEF1EC5B15F00205335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		954E8FF11EC5B15F00205335 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5DF0EA6E0DF1B28F8BBF1B3 /* Pods-CHExceptionReport.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZQQMP3TJXZ;
+				INFOPLIST_FILE = CHExceptionReport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mobisentry.client;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		954E8FF21EC5B15F00205335 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29130EC95E6922DF61B08161 /* Pods-CHExceptionReport.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZQQMP3TJXZ;
+				INFOPLIST_FILE = CHExceptionReport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.mobisentry.client;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		954E8FD41EC5B15F00205335 /* Build configuration list for PBXProject "CHExceptionReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954E8FEE1EC5B15F00205335 /* Debug */,
+				954E8FEF1EC5B15F00205335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		954E8FF01EC5B15F00205335 /* Build configuration list for PBXNativeTarget "CHExceptionReport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				954E8FF11EC5B15F00205335 /* Debug */,
+				954E8FF21EC5B15F00205335 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 954E8FD11EC5B15F00205335 /* Project object */;
+}
