@@ -25,16 +25,16 @@
     
     [Bugly reportError:nil];
     dispatch_async(dispatch_queue_create("skdflkds", 0), ^{
-        while (true) {
-            BLYLogError(@"Test %@", @"Error");
-            
-            BLYLogWarn(@"Test %@", @"WARN");
-            
-            sleep(1);
-            
-            BLYLogInfo(@"Test %@",@"INFO");
-            arr[1];
-        }
+//        while (true) {
+//            BLYLogError(@"Test %@", @"Error");
+//            
+//            BLYLogWarn(@"Test %@", @"WARN");
+//            
+//            sleep(1);
+//            
+//            BLYLogInfo(@"Test %@",@"INFO");
+////            arr[1];
+//        }
     });
    
 }

@@ -18,9 +18,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [CHUncaughtExceptionHandler setDefaultHandler];
-    ZKFileArchive *archive = [ZKFileArchive archiveWithArchivePath:nil];//path zip path
-    NSInteger result = [archive deflateFiles:nil relativeToPath:nil usingResourceFork:YES];
+//    [CHUncaughtExceptionHandler setDefaultHandler];
+//    ZKFileArchive *archive = [ZKFileArchive archiveWithArchivePath:nil];//path zip path
+//    NSInteger result = [archive deflateFiles:nil relativeToPath:nil usingResourceFork:YES];
 
 
     // Override point for customization after application launch.
